@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax Website</title>
+    <style>
+    body,html {
+        height: 100%;
+        margin: 0%;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 1.8em;
+        color: gray;
+    }
+    
+    .img_1,
+    .img_2,
+    .img_3,
+    .img_4 {
+        position: relative;
+        opacity: 0.72;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .img_1 {
+        background-image: url("https://wallpaperaccess.com/full/565962.jpg");
+        min-height: 100%;
+    }
+    
+    .img_2 {
+        background-image: url("https://wallpaperaccess.com/full/11678.jpg");
+        min-height: 500px;
+    }
+    
+    .img_3 {
+        background-image: url("https://i.pinimg.com/originals/c3/4d/d0/c34dd083df998dc3e06bd8a7c3e5cf4e.jpg");
+        min-height: 500px;
+    }
+    
+    .img_4 {
+        background-image: url("https://wallpaperaccess.com/full/3178719.jpg");
+        min-height: 500px;
+    }
+    
+    .section {
+        text-align: center;
+        padding: 50px 80px;
+    }
+    
+    .section-light {
+        background-color: lightgrey;
+        color: black;
+    }
+    
+    .section-dark {
+        background-color: rgb(48, 45, 45);
+        color: whitesmoke;
+    }
+    
+    .text {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+    
+    .text .border {
+        background-color: black;
+        color: whitesmoke;
+        padding: 12px;
+    }
+    
+    .text .border.trans {
+        background-color: black;
+    }
+    
+    @media(max-width:568px) {
+    
+        .img_1,
+        .img_2,
+        .img_3,
+        .img_4 {
+            background-attachment: scroll;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="img_1">
+        <div class="text">
+            <span class="border">
+                Famous places in South Korea-1
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Changdeokgung Palace</h2>
+        <p>
+            Of the five grand palaces built by the Joseon Dyantasy in the 15th century around Seoul, Changdeokgung
+            Palace was always the preferred royal residence. It's where the king and royal family lived their daily
+            lives.
+            The palace isn't just a single building, it's a complex of buildings, and each served a different purpose.
+            Some are accommodations, some are libraries, dining rooms, and meeting rooms, among other uses. Be sure to
+            spend some time in the 78-acre Huwon, or palace garden, located behind the palace. It's filled with
+            pathways, green spaces, pagodas, streams, and lakes.
+        </p>
+    </section>
+
+    <div class="img_2">
+        <div class="text">
+            <span class="border trans">
+                Famous places in South Korea-2
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Seoraksan National Park</h2>
+        <p>
+            Like the Yosemite of Korea, this majestic natural wonderland (Korea's first national park) has mountains,
+            lakes, waterfalls, streams, and miles of hiking trails that allow you to explore them. The park is known for
+            its natural diversity, as it has over 1,500 different animal species and over 1,000 different kinds of
+            plants. There are also two Buddhist temples inside the park, one known as the "Temple of a Hundred Pools"
+            due to all the ponds around it fed by mountain streams
+        </p>
+    </section>
+
+    <div class="img_3">
+        <div class="text">
+            <span class="border trans">
+                Famous places in South Korea-3
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Lotte World</h2>
+        <p>
+            There's an amusement park right in the middle of downtown Seoul. It's a fun place to spend the day and a
+            chance to immerse yourself in real Korean commercial culture. Lotte World includes a hotel, movie theaters
+            (one with the world's largest screen), a folk museum with traditional performances, and other things to do
+            like ice-skating.
+        </p>
+    </section>
+
+    <div class="img_4">
+        <div class="text">
+            <span class="border trans">
+                Famous places in South Korea-4
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Namsan Tower</h2>
+        <p>
+            Namsan Seoul Tower was built in 1969 as Korea's first integrated transmission tower beaming television and radio broadcasts across the capital. Since opening to the public in 1980, it has become a much-loved Seoul landmark. The tower's main attractions include multi-colored digital art projected onto the tower at night, a digital observatory, a roof terrace, the HanCook restaurant, the n.Grill restaurant, and the Haneul (Sky) Restroom. Namsan Seoul Tower's mountain surroundings on Namsan Mountain have made it a popular place to unwind for locals and tourists alike. 
+        </p>
+    </section>
+
+    <div class="img_1">
+        <div class="text">
+            <span class="border trans">
+                Famous places in South Korea
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
